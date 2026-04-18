@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Trigger Netlify Build
-        run: curl -X POST -d {} https://api.netlify.com/build_hooks/https://mynewsevd.netlify.app/
+        run: curl -X POST -d {} https://api.netlify.com/build_hooks/github_action_refresh
